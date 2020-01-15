@@ -1,14 +1,12 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-
-const Container = styled.div`
-  text-align: center;
-`;
+import Button from "react-bootstrap/Button";
 
 export default function App() {
   return (
-    <Container>
+    <div>
       <h1>Hello World!</h1>
-    </Container>
+      <Button>Hello World</Button>
+    </div>
   );
 }
